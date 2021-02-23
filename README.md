@@ -2,10 +2,15 @@
 project-project-11 created by GitHub Classroom
 
 Team members:
+
 Jing Wen
+
 Diego Kervabon
+
 Favian Flores
+
 Ramon Torres
+
 Lihong Chen
 
 ## Our Product-Vision:
