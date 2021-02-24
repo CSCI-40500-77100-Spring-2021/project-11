@@ -6,25 +6,25 @@
 		<meta charset="UTF-8">
 		<meta name="author" content="Ramon Torres">
 		<meta name="description" content="UNOpen prototype webpage">
-		
+
 		<style>
 			* {
 				margin: 0;
 				padding: 0;
 			}
-		
+
 			body {
 				height: auto;
 				width: auto;
 				background-color: black;
 				font-family: sans-serif;
 			}
-			
+
 			.center {
 				background-color: red;
 				margin-top: 130px;
 			}
-			
+
 			#title {
 				color: yellow;
 				text-align: center;
@@ -35,94 +35,100 @@
 					    -1px  1px 2px black,
 					    -1px -1px 2px black;
 			}
-			
+
 			.username, #username {
 				text-align: center;
 				padding: 5px;
 			}
-			
+
 			.username {
 				letter-spacing: 5px;
 			}
-			
+
 			.roomID {
 				text-align: center;
 				padding: 5px;
 				letter-spacing: 10px;
 			}
-			
+
 			#roomID {
 				text-align: center;
 				padding: 5px;
 			}
-			
+
 			.bottom {
 				text-align: center;
 				padding: 10px;
 			}
-			
+
 			#newRoom {
 				margin-bottom: 120px;
 			}
-			
+
 			#super {
 				vertical-align: super;
 				font-size: 15px;
 			}
-			
+
 			#joinRoom {
 				width: 100px;
 			}
-			
+
 			#setName {
 				width: 108px;
 			}
 		</style>
-		
+
 		<script>
 			var username = "";
 			var roomID = "";
-			
-			
+
+
 			function setUsername(){
 				username = document.getElementById("username");
+				window.alert("Username set!")
 			}
-			
+
 			function setRoomID(){
 				roomID = document.getElementById("roomID");
+				window.alert("Joining room...")
+			}
+
+			function startNewRoom(){
+				window.alert("Starting new room...")
 			}
 		</script>
-		
+
 	</head>
-	
+
 	<main>
 		<body>
 			<div class="center">
 				<p id="title">UNOpen <span id="super">(Prototype)</span></p>
-				
+
 				<div class="username">
-					<input type="text" id="username" value="Enter Username" maxlength="20">
+					<input type="text" id="username" placeholder="Enter Username" maxlength="20">
 					<button id="setName" onclick="setUsername()">Set Username</button>
 				</div>
-				
+
 				<br><br>
-				
+
 				<div class="roomID">
-					<input type="text" id="roomID" value="Enter Room ID" maxlength="8">
+					<input type="text" id="roomID" placeholder="Enter Room ID" maxlength="8">
 					<button id="joinRoom" onclick="setRoomID()">Join Room</button>
 				</div>
-				
+
 				<br><br>
-				
+
 				<div class="bottom">
-					<button id="newRoom" onclick="">Start New Room</button>
+					<button id="newRoom" onclick="startNewRoom()">Start New Room</button>
 				</div>
-				
+
 			</div>
-			
+
 		</body>
-		
+
 	</main>
-	
+
 
 </html>
