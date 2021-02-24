@@ -21,5 +21,5 @@ current mobile versions of this game OUR PRODUCT is free and open source and wil
 ## Proof-of-concept prototype
 
 ## How to use:
-(in the process) 
+User's can enter their desired username and can then either begin their own room, or enter a roomID to join an existing room. 
 
