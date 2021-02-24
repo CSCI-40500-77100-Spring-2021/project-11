@@ -7,75 +7,101 @@
 		<meta name="description" content="UNOpen prototype webpage">
 
 		<style>
+		<!-- Universal selector to reset browser dimensions in order to dipslay the webpage properly-->
 			* {
 				margin: 0;
 				padding: 0;
 			}
-
+			
+			
+		
+		<!-- Height and width of webpage will automatically adjust to user's browser-->
 			body {
 				height: auto;
 				width: auto;
 				background-color: black;
 				font-family: sans-serif;
 			}
-
+			
+			
+			
 			.center {
 				background-color: red;
 				margin-top: 130px;
 			}
-
+			
+			
+			
+			<!-- Title section -->
 			#title {
 				color: yellow;
 				text-align: center;
 				font-size: 60px;
 				padding: 65px;
+				
+				<!-- Text-shadow property used here to apply shading to borders of letters in title-->
 				text-shadow: 1px  1px 2px black,
 					     1px -1px 2px black,
 					    -1px  1px 2px black,
 					    -1px -1px 2px black;
 			}
-
+			
+			
+			#super {
+				vertical-align: super;
+				font-size: 15px;
+			}
+			<!-- End title section -->
+			
+			
+			
+			<!-- Username entry -->
 			.username, #username {
 				text-align: center;
 				padding: 5px;
 			}
-
+			
 			.username {
 				letter-spacing: 5px;
 			}
-
+			
+			#setName {
+				width: 108px;
+			}
+			<!-- End of Username entry -->
+			
+			
+			
+			<!-- RoomID & join room -->
 			.roomID {
 				text-align: center;
 				padding: 5px;
 				letter-spacing: 10px;
 			}
-
+			
 			#roomID {
 				text-align: center;
 				padding: 5px;
 			}
-
+			
+			#joinRoom {
+				width: 100px;
+			}
+			<!-- End of RoomID & join room -->
+			
+			
+			
+			<!-- Bottom portion of webpage (only Start New Room for now) -->
 			.bottom {
 				text-align: center;
 				padding: 10px;
 			}
-
+			
 			#newRoom {
 				margin-bottom: 120px;
 			}
-
-			#super {
-				vertical-align: super;
-				font-size: 15px;
-			}
-
-			#joinRoom {
-				width: 100px;
-			}
-
-			#setName {
-				width: 108px;
-			}
+			<!-- End bottom portion of webpage -->
+			
 		</style>
 
 		<script>
