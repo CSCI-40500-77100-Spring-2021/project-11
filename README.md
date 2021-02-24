@@ -1,5 +1,5 @@
 # project-11
-project-project-11 created by GitHub Classroom
+project-11 created by GitHub Classroom
 
 Team members:
 
