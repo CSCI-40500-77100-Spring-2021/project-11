@@ -19,11 +19,9 @@ that is socially-distanced during this pandemic, UNOpen is a card game THAT is f
 current mobile versions of this game OUR PRODUCT is free and open source and will run in your browser.
 
 ## Proof-of-concept prototype
-
+User's can enter their desired username and can then either begin their own room, or enter a roomID to join an existing room.
 
 ## How to use:
-User's can enter their desired username and can then either begin their own room, or enter a roomID to join an existing room. 
-
 Open a terminal window in the project folder
 
 type "python3 -m http.server --directory templates"
