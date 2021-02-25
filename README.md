@@ -32,7 +32,7 @@ go to 127.0.0.1:8000/homepage.html
 
 
 ## Proof-of-concept prototype #2(Our back up)
-Here a quick look at our prototype webpage:
+Here a quick look at our backup prototype webpage:
 
 
 <img src="http://g.recordit.co/uyKeg4AYc4.gif" width=250><br>
