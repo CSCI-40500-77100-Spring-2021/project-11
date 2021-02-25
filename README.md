@@ -35,4 +35,4 @@ go to 127.0.0.1:8000/homepage.html
 Here a quick look at our backup prototype webpage:
 
 
-<img src="http://g.recordit.co/uyKeg4AYc4.gif" width=250><br>
+<img src="http://g.recordit.co/uyKeg4AYc4.gif">
