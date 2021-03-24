@@ -36,3 +36,8 @@ Here a quick look at our backup prototype webpage:
 
 
 <img src="http://g.recordit.co/uqEcS9uNwX.gif">
+
+## Gamespace Prototype
+Here is a basic layout of our gamespace:
+
+<img src="https://recordit.co/2kt2hrPttp">
