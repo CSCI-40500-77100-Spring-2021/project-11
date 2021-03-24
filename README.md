@@ -40,4 +40,4 @@ Here a quick look at our backup prototype webpage:
 ## Gamespace Prototype
 Here is a basic layout of our gamespace:
 
-<img src="https://recordit.co/2kt2hrPttp">
+<img src="http://g.recordit.co/2kt2hrPttp.gif">
