@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>UNOpen</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Basic layout of gamespace">
+		
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				height: auto;
+				width: auto;
+				background-color: black;
+				font-family: sans-serif;
+			}
+			
+			.main {
+				background-color: red;
+				margin-top: 85px;
+				padding: 25px;
+			}
+			
+			.p1 {
+				text-align: center;
+			}
+			
+			.p6 {
+				padding: 30px;
+				margin-bottom: 200px;
+			}
+			
+			.p3 {
+				text-align: center;
+			}
+			
+			.chat {
+				text-align: left;
+				margin-left: 50px;
+				background-color: white;
+				width: 420px;
+				border: 2px solid black;
+			}
+			
+			#super {
+				vertical-align: 30px;
+			}
+			
+			p {
+				color: yellow;
+			}
+			
+			#print {
+				color: black;
+				margin-bottom: 15px;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div class="main">
+			<div class="p1">
+				<p>Player 1</p>
+				<br>
+				<img src="Card Images/UNO-back 5-stack.png" align="center">
+			</div>
+			
+			<br><br>
+		
+			<div class="p6">
+				<p style="text-align: left;">Player 2</p>
+				<p style="text-align: right;">Player 4</p>
+				<img src="Card Images/UNO-back 5-stack left side.png" align="left">
+				<br>
+				<img src="Card Images/Red 6.png" align="center" style="margin-left: 37%; margin-top: 10%; margin-right: 10px;">
+				<img src="Card Images/UNO-back_1.png" align="center" style="margin-top: 10%">
+				<img src="Card Images/UNO-back 5-stack right side.png" align="right">
+			</div>
+			
+			<br><br>
+		
+			<div class="chat">
+				<p style="text-align: center; color: black">Game Chat Room</p><br><br>
+				<p id="print"></p>
+				<hr style="opacity: 80%; margin-bottom: 5px;">
+				<input id="msg" type="text" placeholder="Enter Game Chat Message (50 Characters Max)" size="50px" maxlength="50">
+				<button onclick="alert('Sending Message...')">Send Message</button>
+			</div>
+
+			<div class="p3">
+				<span id="card1" onmouseover="growFirst()" onmouseout="shrinkFirst()"><img src="Card Images/Blue Plus 2.png"></span>
+				<span id="card2"><img src="Card Images/Green 0.png"></span>
+				<span id="card3"><img src="Card Images/Plus 4.png"></span>
+				<span id="card4"><img src="Card Images/Red 6.png"></span>
+				<span id="card5"><img src="Card Images/Yellow Skip.png"></span>
+				<p>Player 3</p>
+			</div>
+			
+			<br><br>
+			
+		</div>
+		
+		<script>
+			var card1 = document.getElementbyId("card1");
+		
+			function growFirst(){
+				card1.style["vertical-align"] = "30px";
+			}
+			
+			function shrinkFirst(){
+				card1.style["vertical-align"] = "0px";
+			}
+		</script>
+		
+	</body>
+
+</html>
