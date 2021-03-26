@@ -16,7 +16,7 @@ FOR people ages 5 and up with access to the internet and an internet browser WHO
 that is socially-distanced during this pandemic, UNOpen is a card game THAT is fun and easy to learn and UNLIKE
 current mobile versions of this game OUR PRODUCT is free and open source and will run in your browser.
 
-## Gamespace Prototype
+## Gamespace Prototype(extension) #2
 Here is a basic layout of our gamespace:
 
 <img src="http://g.recordit.co/2kt2hrPttp.gif">
