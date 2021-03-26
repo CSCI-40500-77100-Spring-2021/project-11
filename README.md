@@ -37,6 +37,10 @@ We have known that this product is to be delivered on web platform initially to 
 Should you use dedicated in-house servers or design your system to run on a public cloud? If a public cloud, should you use Amazon, Google, Microsoft, or some other option?
 A public cloud would be the superior option. Purchasing in-house servers that the product could very well outgrow very quickly would be costly and insufficient. A public cloud option would cost very little upfront and could easily meet the demands of the product regardless of how far and 
 
+#### Our Layered Architecture Diagram: 
+
+
+
 ## Our Product-Vision:
 FOR people ages 5 and up with access to the internet and an internet browser WHO are looking to socialize in a way
 that is socially-distanced during this pandemic, UNOpen is a card game THAT is fun and easy to learn and UNLIKE
