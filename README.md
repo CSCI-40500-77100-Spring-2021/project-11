@@ -7,8 +7,6 @@ Jing Wen
 
 Diego Kervabon
 
-Favian Flores
-
 Ramon Torres
 
 Lihong Chen
