@@ -38,6 +38,7 @@ Should you use dedicated in-house servers or design your system to run on a publ
 A public cloud would be the superior option. Purchasing in-house servers that the product could very well outgrow very quickly would be costly and insufficient. A public cloud option would cost very little upfront and could easily meet the demands of the product regardless of how far and 
 
 #### Our Layered Architecture Diagram: 
+![Layered SW Architecture-UNOpen](https://user-images.githubusercontent.com/48634970/112685881-90ebdc80-8e4b-11eb-9833-567e5a823e4f.png)
 
 
 
