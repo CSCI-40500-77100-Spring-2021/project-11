@@ -12,7 +12,7 @@ Ramon Torres
 Lihong Chen
 
 ## Description of our Product Architecture:
-1)
+#### Most important qualities for our software
 Nonfunctional Product Characteristics such as performance are very important for commercial success. A product with performance issues could hamper users and drastically restrict the likelihood that they will play and recommend the product to potential users.
 
 Product Lifetime is very important because we expect this game to be around on the web for many years in the future and for new features to be implemented over its lifetime. UNO has been around for almost 50 years and continues to be popular today, and, we believe, into the future.
@@ -24,7 +24,18 @@ Security and Software Reuse and Software Compatibility are of lesser importance 
 2) Building the game does not require the reuse of open source software or other products. Although the product is being built heavily with the use of open source technologies, none of these would fit the definition of being “reused”.
 3) The game is being built for mainstream web browsers and does not require users to access the product and its data via a different system.
 
+#### Technologies we will use in our product
+1) Database
+Should you use a relational SQL database or an unstructured NOSQL database?
+A relational SQL database is sufficient for the data types that we are using for this product. Using a NOSQL database would just complicate things.
 
+2) Platform
+Should you deliver your product on a mobile app and/or a web platform?
+We have known that this product is to be delivered on web platform initially to appeal to the millions of people who would normally be playing UNO on mobile device but are using the web platforms connected to their laptops and desktops instead (because of COVID).
+
+3) Server
+Should you use dedicated in-house servers or design your system to run on a public cloud? If a public cloud, should you use Amazon, Google, Microsoft, or some other option?
+A public cloud would be the superior option. Purchasing in-house servers that the product could very well outgrow very quickly would be costly and insufficient. A public cloud option would cost very little upfront and could easily meet the demands of the product regardless of how far and 
 
 ## Our Product-Vision:
 FOR people ages 5 and up with access to the internet and an internet browser WHO are looking to socialize in a way
